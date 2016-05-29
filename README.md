@@ -1,0 +1,2 @@
+# ideagen
+IDEA Code Generator
