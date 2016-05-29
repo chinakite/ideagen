@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fileSystem>
+	<dir name="dbscript">
+	</dir>
+	<dir name="dist">
+	</dir>
+	<dir name="doc">
+	</dir>
+	<dir name="lib">
+	</dir>
+	<dir name="src">
+		<dir name="com">
+			<dir name="ideamoment">
+				<dir name="${projectName}">
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+	<dir name="test">
+		<dir name="com">
+			<dir name="ideamoment">
+				<dir name="${projectName}">
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+	<dir name="WebRoot">
+		<dir name="WEB-INF">
+			<dir name="classes"/>
+			<dir name="lib"/>
+			<file name="web.xml" template="web.xml.ftl"/>
+		</dir>
+		<file name="index.html" template="index.html.ftl"/>
+	</dir>
+</fileSystem>
